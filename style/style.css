@@ -177,7 +177,7 @@
     margin: 0 auto;
     justify-content: space-between;
 }
-/* target skills common style */
+/* target skills common style start */
 .skill{
     width: 364px;
     height: 299px;
@@ -186,12 +186,6 @@
     border-radius: 16px;
     padding: 40px;
     background: rgba(255, 76, 30, 0.05);
-}
-.target-skills .css{
-    background: rgba(0, 76, 232, 0.05);
-}
-.target-skills .js{
-    background: rgba(255, 223, 0, 0.05);
 }
 .skill img{
     width: 56px;
@@ -225,4 +219,85 @@ left: 0;
     letter-spacing: 0%;
     margin-top: 24px;
 }
+/* target skills common style end */
+.target-skills .css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-skills .js{
+    background: rgba(255, 223, 0, 0.05);
+}
 /* My Current Target Section End */
+/* support style start */
+.support-container{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background-color:rgba(0, 0, 0, 0.3);
+    background-image: url(../images/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+.support-title-cover{
+    width: 800px;
+    height: 104px;
+    margin: 0px auto;
+}
+.suport-titile{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-para{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-input{
+    width: 684px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+#support-input{
+    width: 548px;
+    height: 57px;
+    border: none;
+    margin: 0 auto;
+    margin-left: 0;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);    
+}
+.input-btn{
+    width: 120px;
+    height: 57px;
+    margin: 0 auto;
+    margin-right: 0px;
+    padding: 17px 20px 17px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+/* support style end */
