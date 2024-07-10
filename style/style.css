@@ -68,6 +68,10 @@
 .header-content button{
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    padding: 24px;
+    margin-top: 32px;
+}
+.header-content button>a{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     padding: 24px;
@@ -76,7 +80,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    margin-top: 32px;
+    text-decoration: none;
 }
 /* Banner style End */
 /* Why Web  style start */
@@ -127,9 +131,15 @@
 .web-content-text button{
     width: 150px;
     height: 48px;
-    padding: 12px 20px 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+}
+.web-content-text button>a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .web-content-section img{
     width: 259.56px;
@@ -214,7 +224,7 @@ left: 0;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 26px;
     letter-spacing: 0%;
     margin-top: 24px;
@@ -302,3 +312,20 @@ left: 0;
     cursor: pointer;
 }
 /* support style end */
+/* Footer style start */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+}
+.foot-media a{
+    text-decoration: none;
+    align-items: center;
+    margin-right: 24px;
+}
+/* Footer style End */
