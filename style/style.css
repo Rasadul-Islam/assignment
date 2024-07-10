@@ -19,6 +19,16 @@
     letter-spacing: 0%;
     text-align: center;
 }
+.content-titile{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
 /* shared style end */
 /* Banner style start */
 .header-container{
@@ -85,16 +95,6 @@
     margin: 0 auto;
     margin-bottom: 32px;
 }
-.web-content-text-top h1{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 24px;
-}
 /* Web content top text style End */
 /* Web content common style start */
 .web-content-section{
@@ -144,3 +144,30 @@
     margin-left: 48px;
 }
 /* Web Web style End */
+/* My Inpiration style Start */
+.my-ins-container{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+/* My Inspiration Test style */
+.my-ins-text{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+/* My Inspiration Video style*/
+.my-ins-video{
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.my-ins-video iframe{
+    width: 1076px;
+    height: 550px;
+}
+/* My Inpiration style End */
