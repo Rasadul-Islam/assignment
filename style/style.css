@@ -146,6 +146,9 @@
     height: 217.01px;
 }
 /* Web content common style End */
+#Second-content{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
 #web-2nd-img{
     width: 223.2px;
     height: 208.85px;   
